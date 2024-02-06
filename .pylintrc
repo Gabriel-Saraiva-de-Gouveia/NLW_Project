@@ -1,9 +1,9 @@
 [MAIN]
-disable*
+disable=
     C0114, # Missing module docstring
     C0115, # Missing-class-docstring
     C0116, # Missing-function-docstring
-    W0783, # Catching too general exception Exception
+    W0012, # Catching too general exception Exception
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
 # only in one or another interpreter, leading to false positives when analysed.
